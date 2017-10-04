@@ -37,6 +37,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #two,
 #one {
   flex: 1 100%;
+  height: 100vw;
   }
 
 #three {
@@ -51,10 +52,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 #one {
   order: 1;
+
+
 }
 
 @media screen and (min-width: 600px) {
-
+  #one, #two {
+    flex: 1 auto;
+  }
 }
 
 @media screen and (min-width: 800px) {
