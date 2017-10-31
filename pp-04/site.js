@@ -41,7 +41,8 @@ function arrayEach(array, func) {
 arrayEach(['red','green','blue'], console.log);
 
 console.log(typeof(i)); // should be 'undefined', not 3
-
+//typeof will declare what type is the variable, it is undefined so it will
+//print undefined due to i now being local not global.
 //  4. Explain why this function does not modify the global
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
