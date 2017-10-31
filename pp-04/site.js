@@ -46,7 +46,9 @@ console.log(typeof(i)); // should be 'undefined', not 3
 //  4. Explain why this function does not modify the global
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
-
+// it is encabsulated by brackets therfore, it is being manibulated locally
+//to that function not outside the brackets to the modify the decalration
+// of line 5 which is outside the brackets(global).
 function addTwo(x) {
   x = x + 2;
   return x;
