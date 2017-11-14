@@ -18,6 +18,11 @@ body {
   padding: 10%;
 }
 
+button {
+  background-color: red;
+  cursor: pointer;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 
