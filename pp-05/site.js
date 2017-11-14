@@ -5,3 +5,4 @@ function ringDoorbell() {
 $(document).ready(function() {
   $(".js").css('display', 'inline');
 });
+document.getElementById('myBtn').addEventListener("click", ringDoorbell);
