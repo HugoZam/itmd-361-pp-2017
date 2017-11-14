@@ -24,7 +24,9 @@ button {
 }
 
 /* ===== LAYOUT STYLES ===== */
-
+.js{
+    display:none;
+}
 
 /* ===== MODULAR STYLES ===== */
 

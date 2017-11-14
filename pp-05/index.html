@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/screen.css" /></head>
 <body>
-  <button onclick="ringDoorbell();">Ring the Doorbell</button>
+  <button class="js" onclick="ringDoorbell();">Ring the Doorbell</button>
 
   <noscript>
-    <audio src="/media/doorbell.mp3" controls>
-      <button>Fallback content goes here.</button>
+
+    <p>Fallback Media Player.</p>
+    <audio src="media/doors-closing.mp3" controls>
+
     </audio>
   </noscript>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
